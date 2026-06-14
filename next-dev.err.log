@@ -1,0 +1,46 @@
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+Error: Route "/case/[slug]" used `params.slug`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at eval (src\app\case\[slug]\page.jsx:21:50)
+    at Array.find (<anonymous>)
+    at CaseDetailPage (src\app\case\[slug]\page.jsx:21:22)
+  19 |
+  20 | export default function CaseDetailPage({ params }) {
+> 21 |   const item = cases.find(c => c.slug === params.slug)
+     |                                                  ^
+  22 |   if (!item) notFound()
+  23 |
+  24 |   return (
+Error: Route "/case/[slug]" used `params.slug`. `params` should be awaited before using its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+    at eval (src\app\case\[slug]\page.jsx:12:50)
+    at Array.find (<anonymous>)
+    at Module.generateMetadata (src\app\case\[slug]\page.jsx:12:22)
+  10 |
+  11 | export function generateMetadata({ params }) {
+> 12 |   const item = cases.find(c => c.slug === params.slug)
+     |                                                  ^
+  13 |   if (!item) return {}
+  14 |   return {
+  15 |     title: item.title,
+ ⨯ Error: Cannot find module './916.js'
+Require stack:
+- C:\Users\dyb\Desktop\个人网页\weilaimali-next\.next\server\webpack-runtime.js
+- C:\Users\dyb\Desktop\个人网页\weilaimali-next\.next\server\app\miniapp\page.js
+- C:\Users\dyb\Desktop\个人网页\weilaimali-next\node_modules\next\dist\server\require.js
+- C:\Users\dyb\Desktop\个人网页\weilaimali-next\node_modules\next\dist\server\load-components.js
+- C:\Users\dyb\Desktop\个人网页\weilaimali-next\node_modules\next\dist\build\utils.js
+- C:\Users\dyb\Desktop\个人网页\weilaimali-next\node_modules\next\dist\build\swc\options.js
+- C:\Users\dyb\Desktop\个人网页\weilaimali-next\node_modules\next\dist\build\swc\index.js
+- C:\Users\dyb\Desktop\个人网页\weilaimali-next\node_modules\next\dist\build\analysis\parse-module.js
+- C:\Users\dyb\Desktop\个人网页\weilaimali-next\node_modules\next\dist\build\analysis\get-page-static-info.js
+- C:\Users\dyb\Desktop\个人网页\weilaimali-next\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\dyb\Desktop\个人网页\weilaimali-next\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\dyb\Desktop\个人网页\weilaimali-next\node_modules\next\dist\server\lib\start-server.js
+    at <unknown> (C:\Users\dyb\Desktop\个人网页\weilaimali-next\.next\server\app\case\page.js:2:11941)
+    at Object.<anonymous> (C:\Users\dyb\Desktop\个人网页\weilaimali-next\.next\server\app\case\page.js:2:11995) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [Array],
+  page: '/case'
+}

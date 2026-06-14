@@ -1,0 +1,107 @@
+
+> weilaimali-next@1.0.0 dev
+> next dev --hostname 127.0.0.1 --port 3000
+
+   ▲ Next.js 15.5.19
+   - Local:        http://127.0.0.1:3000
+   - Network:      http://127.0.0.1:3000
+
+ ✓ Starting...
+ ✓ Ready in 2.6s
+ ○ Compiling / ...
+ ✓ Compiled / in 3.5s (1440 modules)
+ GET / 200 in 4240ms
+ GET / 200 in 4267ms
+ GET / 200 in 713ms
+ GET / 200 in 717ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 610ms (1445 modules)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__ee8fcf21_664e_4f1d_bb9a_f5ab84262c64__0 404 in 1036ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__20d4f540_fc50_4558_bec1_b343300ebebf__1 404 in 1009ms
+ GET / 200 in 111ms
+ ✓ Compiled /miniapp in 338ms (1437 modules)
+ GET /miniapp 200 in 417ms
+ ✓ Compiled /case/[slug] in 334ms (1453 modules)
+ GET /case/omni-mall 200 in 1049ms
+ ✓ Compiled /software in 334ms (1459 modules)
+ GET /software 200 in 439ms
+ ✓ Compiled /solution in 265ms (1461 modules)
+ GET /solution 200 in 362ms
+ ○ Compiling /case ...
+ ✓ Compiled /case in 753ms (1469 modules)
+ GET /case 200 in 827ms
+ ✓ Compiled /about in 383ms (1476 modules)
+ GET /about 200 in 478ms
+ GET / 200 in 54ms
+ GET /miniapp 200 in 40ms
+ GET /software 200 in 34ms
+ GET /solution 200 in 46ms
+ ✓ Compiled /contact in 430ms (1483 modules)
+ GET /contact 200 in 517ms
+ GET /case 200 in 23ms
+ ✓ Compiled in 654ms (1458 modules)
+ GET /case 200 in 227ms
+ GET / 200 in 242ms
+ ✓ Compiled in 747ms (1478 modules)
+ GET /case 200 in 157ms
+ GET / 200 in 168ms
+ ✓ Compiled in 189ms (649 modules)
+ GET /case 200 in 224ms
+ ✓ Compiled in 683ms (1463 modules)
+ GET / 200 in 706ms
+ GET /case 200 in 733ms
+ GET /case 200 in 67ms
+ GET / 200 in 630ms
+ GET / 200 in 80ms
+ ✓ Compiled in 169ms (649 modules)
+ GET /case 200 in 232ms
+ ✓ Compiled in 654ms (1463 modules)
+ GET / 200 in 667ms
+ GET /case 200 in 669ms
+ GET /case 200 in 60ms
+ GET / 200 in 561ms
+ GET / 200 in 70ms
+ ✓ Compiled in 428ms (1477 modules)
+ GET /case 200 in 138ms
+ GET / 200 in 153ms
+ ✓ Compiled in 852ms (1476 modules)
+ GET /case 200 in 750ms
+ GET /case 200 in 62ms
+ GET / 200 in 824ms
+ GET / 200 in 69ms
+ ✓ Compiled in 159ms (648 modules)
+ GET /case 200 in 163ms
+ ✓ Compiled in 490ms (1462 modules)
+ GET / 200 in 571ms
+ GET /case 200 in 543ms
+ GET /case 200 in 71ms
+ GET / 200 in 579ms
+ GET / 200 in 67ms
+ ✓ Compiled in 137ms (648 modules)
+ GET /case 200 in 174ms
+ ✓ Compiled in 265ms (1462 modules)
+ GET / 200 in 428ms
+ GET /case 200 in 100ms
+ GET / 200 in 112ms
+ ✓ Compiled in 603ms (1476 modules)
+ GET /case 200 in 224ms
+ GET / 200 in 246ms
+ ○ Compiling /miniapp ...
+ ✓ Compiled /miniapp in 582ms (1470 modules)
+ GET /miniapp 200 in 671ms
+ ○ Compiling /_error ...
+ GET /miniapp 200 in 537ms
+ GET /miniapp 200 in 684ms
+ ✓ Compiled /_error in 1392ms (1817 modules)
+ GET /case 500 in 1973ms
+ GET /case 200 in 92ms
+ GET /case 200 in 20ms
+ GET /case 200 in 194ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 619ms (1822 modules)
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__d56f7f19_a983_4e28_80dc_bcd4e4d94c31__1 404 in 907ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__3282ad0b_7164_45bf_8e29_54bdb4d6ea34__0 404 in 937ms
+ GET /miniapp 200 in 311ms
+ GET /case 200 in 178ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__eb56b21f_a03f_4182_b615_b25380e2869d__0 404 in 83ms
+ GET /hybridaction/zybTrackerStatisticsAction?data=%7B%7D&__callback__=__cb__zybTrackerStatisticsAction__6ccefd13_4d08_4e9f_a0bf_e5ef1b74a1aa__1 404 in 79ms
